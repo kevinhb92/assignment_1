@@ -5,7 +5,7 @@ function setup() {
 
 function draw() {
 	// clear the background - skyblue
-  background(250, 250, 255);
+  background(172, 242, 240);
 
 	// set a fill color for ground
 	fill(89, 63, 63);
