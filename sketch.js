@@ -106,7 +106,7 @@ rect(610, 120, 20, 10)
 rect(510, 130, 20, 10)
 rect(550, 130, 20, 10)
 rect(590, 130, 20, 10)
-rect(630, 90, 20, 10)
+rect(630, 130, 20, 10)
 
 rect(490, 140, 20, 10)
 rect(530, 140, 20, 10)
@@ -224,6 +224,107 @@ fill(91,5,5)
 rect(544, 220, 23, 100)
 rect(574, 220, 23, 100)
 rect(604, 220, 23, 100)
+
+//fill a color for kings face
+  fill(235,219,186)
+
+	//draw a face of a king
+	rect(379, 200, 67, 60, 20)
+
+	//fill a color for kings crown
+   fill(167,6,6)
+	//draw a kings crown
+	rect(377, 180, 30, 30, 20)
+  rect(417, 180, 30, 30, 20)
+
+	rect(397, 170, 30, 40, 20)
+
+
+
+   //color a kings body
+	 fill(198,36,47)
+	 //draw a king's body
+   triangle(375,340,409,260,451,340)
+	 //color a kings boots
+	 fill(0,0,0)
+   //draw kings boots
+    rect(419, 337,12,25)
+    rect(395, 337,12,25)
+    rect(416, 347,20,20,20)
+    rect(390, 347,20,20,20)
+
+    //color the lace of the shoe
+		fill(231,231,231)
+		rect(419,348,12,1)
+		rect(419, 344,12,1)
+    rect(419, 346,12,1)
+    rect(419, 342,12,1)
+		rect(419, 337,12,1)
+
+		rect(395,348,12,1)
+		rect(395, 344,12,1)
+		rect(395, 346,12,1)
+		rect(395, 342,12,1)
+		rect(395, 337,12,1)
+
+	 //color a kings body
+	fill(60,3,3)
+	 rect(390, 257, 45, 55,20)
+   rect(390, 287, 20, 55,20)
+	 rect(415, 287, 20, 55,20)
+
+	 //fill color of the book
+ 	fill(15,10,118)
+
+ 	//draw the book
+ 	rect(385, 255, 30, 65, 20)
+	//fill color of the book
+ fill(207,207,207)
+ //draw the book
+ rect(395, 256, 10, 63)
+
+	 //color a kings hand
+	fill(253,219,186)
+	//draw a king's body
+	rect(377, 285, 15, 15,20)
+	rect(415, 277, 15, 15,20)
+
+	//fill a color for kings crown
+	 fill(253,246,0)
+
+
+
+	 //draw a kings crown
+	 rect(378, 200, 68, 15)
+   rect(397, 175, 30, 3)
+   rect(412, 140, 3, 60)
+
+   //fill the color for beard
+	 fill(180,180,180)
+	 //draw a beard
+  triangle(393, 246, 412, 300, 433, 246);
+
+fill(172,0,12)
+ellipse(412,252,15,7)
+
+//draw eyes of the king
+ellipseMode(RADIUS);  // Set ellipseMode to RADIUS
+fill(255);  // Set fill to white
+ellipse(400, 230, 10, 10);  // Draw white ellipse using RADIUS mode
+
+ellipseMode(CENTER);  // Set ellipseMode to CENTER
+fill(100);  // Set fill to gray
+ellipse(400, 230, 10, 10);  // Draw gray ellipse using CENTER mode
+
+ellipseMode(RADIUS);  // Set ellipseMode to RADIUS
+fill(255);  // Set fill to white
+ellipse(430, 230, 10, 10);  // Draw white ellipse using RADIUS mode
+
+ellipseMode(CENTER);  // Set ellipseMode to CENTER
+fill(100);  // Set fill to gray
+ellipse(430, 230, 10, 10);  // Draw gray ellipse using CENTER mode
+
+
 	// set a fill color for queen sun
   fill(255,255,0);
 	// draw a circle for queen sun
@@ -232,6 +333,7 @@ rect(604, 220, 23, 100)
 	// set a fill color for queen hair
  fill(85, 46, 63);
 
+
   //draw lips for queen
   ellipse(114, 91, 115, 127)
   ellipse(114, 30, 45, 35);
@@ -239,6 +341,7 @@ rect(604, 220, 23, 100)
 
   //set a fill color for queen's dress
   fill(223,7,73)
+
 
   //draw a dress for queen
   triangle(87, 190, 115, 105, 147, 190);
@@ -323,8 +426,6 @@ stroke(51);
 
 	//draw nose for queen
 	arc(128, 105, 40, 60, PI, PI+QUARTER_PI);
-
-//fill a color for kings face
 
 
 
