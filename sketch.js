@@ -198,8 +198,23 @@ rect(550, 310, 20, 10)
 rect(590, 310, 20, 10)
 rect(630, 310, 20, 10)
 
+
+//set a color for rock background detail
+fill(13,5,2)
+rect(440, 280, 55, 40, 20)
+
+fill(37,13,2)
+rect(460, 290, 60, 50, 20)
+
+fill(42,40,39)
+rect(335, 280, 30, 30, 20)
+
+fill(84,81,80)
+rect(360, 280, 40, 30, 20)
+
 //set a fill color for door for castle
 fill(0,0,0)
+
 //dra a door for caslte
 rect(540, 220, 90, 100)
 
@@ -309,7 +324,7 @@ stroke(51);
 	//draw nose for queen
 	arc(128, 105, 40, 60, PI, PI+QUARTER_PI);
 
-
+//fill a color for kings face
 
 
 
