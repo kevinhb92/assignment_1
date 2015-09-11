@@ -5,7 +5,25 @@ function setup() {
 
 function draw() {
 	// clear the background - skyblue
-  background(172, 242, 240);
+  background(186, 219, 219);
+
+  //fill color for cloud
+	fill(229,242,242)
+	noStroke();
+	//draw cloud
+	ellipse(220, 125, 135, 45);
+  ellipse(260, 145, 135, 35);
+
+	ellipse(290, 56, 115, 40);
+	ellipse(250, 44, 95, 35);
+
+	ellipse(320, 95, 75, 25);
+	ellipse(370, 105, 75, 25);
+
+   ellipse(500, 65, 65, 35);
+   ellipse(550, 45, 125, 55)
+
+
 
 
   //set a fill color for the tree trunk
@@ -180,7 +198,17 @@ rect(550, 310, 20, 10)
 rect(590, 310, 20, 10)
 rect(630, 310, 20, 10)
 
+//set a fill color for door for castle
+fill(0,0,0)
+//dra a door for caslte
+rect(540, 220, 90, 100)
 
+//set a fill color for door for castle
+fill(91,5,5)
+//dra a door for caslte
+rect(544, 220, 23, 100)
+rect(574, 220, 23, 100)
+rect(604, 220, 23, 100)
 	// set a fill color for queen sun
   fill(255,255,0);
 	// draw a circle for queen sun
