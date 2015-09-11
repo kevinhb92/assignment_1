@@ -76,3 +76,10 @@ stroke(51);
 	//draw nose for queen
 	arc(128, 105, 40, 60, PI, PI+QUARTER_PI);
 }
+
+ // set a fill color for queen hair
+fill(85, 46, 63);
+//draw lips for queen
+ellipse(114, 121, 15, 7)
+ellipse(122, 121, 15, 7)
+ellipse(118, 125, 15, 5)
