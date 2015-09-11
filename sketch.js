@@ -428,8 +428,12 @@ stroke(51);
 	arc(128, 105, 40, 60, PI, PI+QUARTER_PI);
 
 
-
-
+//fill the color for flag
+fill(355,0,0)
+stroke(5)
+triangle(563,60,563,11,630,33)
+fill(72,0,5)
+rect(560, 10, 4, 70)
 
 
 
